@@ -22,13 +22,13 @@ def generate_launch_description():
             executable='px4_tf_pub',
             name='px4_pose_node',
             output='screen',
-            parameters=[params, use_sim_time_param],  # Añadido use_sim_time
+            parameters=[params, use_sim_time_param],
         ),
         Node(
             package='px4_pose',
             executable='px4_drone_control',
             name='px4_control_node',
             output='screen',
-            parameters=[use_sim_time_param],  # Añadido use_sim_time
+            parameters=[use_sim_time_param],
         )
     ])

@@ -20,7 +20,7 @@ setup(
     maintainer='Alfredo',
     maintainer_email='amamanisai@unsa.edu.pe',
     description='Publish PX4 drone position and add teleoperation',
-    license='TODO: License declaration',
+    license='GPL-3.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
