@@ -73,6 +73,21 @@ To manually control the drone using the keyboard, execute:
 ```bash
 ros2 run px4_pose teleop_twist_keyboard
 ```
+#### RC Controls - Mode 2
+
+Using the arrow keys and WASD, you can control the drone with Mode 2 RC controls as follows:
+
+- **W**: Move Up  
+- **S**: Move Down  
+- **A**: Yaw Left  
+- **D**: Yaw Right  
+- **Up Arrow**: Pitch Forward  
+- **Down Arrow**: Pitch Backward  
+- **Left Arrow**: Roll Left  
+- **Right Arrow**: Roll Right  
+
+##### Additional Command:
+- **SPACE**: Arm/Disarm the drone
 
 ---
 
